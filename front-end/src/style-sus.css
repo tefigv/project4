@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+p{
+    font-size: 50px;
+    text-align: center;
+}
+
+.img-header{
+    display: none;
+}
+
+.header{
+    background-color: #e4f5fb;
+}
+
+
+.center h1{
+    font-family: 'Playfair Display', serif;
+    /*color: white;*/
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+.wrapper-shop-now{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.shop-now{
+    font-size: 50px;
+}
+
+.plastic-free{
+    text-align: center;
+    padding: 30px;
+}
+
+.plastic-free h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;   
+} 
+
+.packaging{
+    padding: 30px;
+}
+
+.packaging h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 100px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-packaging{
+    width: 100%;
+}
+
+.api{
+    text-align: center;
+    width:100%;
+    background-color: #DEFCFF;
+}
+
+@media only screen and (min-width: 1000px) {
+    .img-header{
+        display: inline;
+        width: 100%;
+    }
+    
+    .header{
+      position: relative;
+      text-align: center;
+      color: black;
+    }
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .center p{
+         font-size: 30px;
+    }
+    p{
+        font-size: 18px; 
+    }
+    
+    .shop-now{
+    font-size: 20px;
+    }
+    
+    .bottle-wrapper{
+        padding: 20px;
+        height: 500px;
+        
+    }
+    
+    .envelopes-wrapper{
+        padding: 0px;
+        height: 500px;
+    }
+    
+    .left{
+    width: 50%;
+    float: left;
+    }
+    .right{
+    width: 50%;
+    float: right;
+    }
+    
+    .packaging{
+        margin-top: 120px;
+    }
+    
+    .packaging h2{
+    font-size: 50px; 
+    }
+    
+    .img-wrapper {
+        width: 450px;
+        margin: 10px;
+    }
+ 
+}
